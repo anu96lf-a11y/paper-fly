@@ -3,8 +3,22 @@
     "name": "paper-fly",
     "slug": "paper-fly",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
       "package": "com.anu.paperfly"
+    },
+    "web": {
+      "bundler": "metro"
     }
   }
 }
